@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query in different screens</title>
+    <style>
+        div{
+
+            font-size: x-large;
+            text-align: center;
+        }
+        @media (max-width:600px){
+            body{
+                background-color: aqua;
+                /* phone */
+            }
+            div::after{
+content: "this is Mobile compatible";
+            }
+        }
+        @media (min-width:600px){
+            body{
+                background-color: yellow;
+                /* portrain table and big phones */
+            }
+            div::after{
+content: "this is portrain tabler and big phone compatible";
+            }
+        }
+        @media (min-width:768px){
+            body{
+                background-color: red;
+                /* tablets */
+            }
+            div::after{
+content: "tablets";
+            }
+        }
+        @media (min-width:992px){
+            body{
+                background-color: purple;
+                /* laptop */
+            }
+            div::after{
+content: "laptop";
+            }
+        }
+        @media (min-width:1200px){
+            body{
+                background-color: green;
+                /* big desktop*/
+            }
+            div::after{
+content: "big desktop";
+            }
+        }
+    </style>
+</head>
+<body>
+   <div></div> 
+</body>
+</html>

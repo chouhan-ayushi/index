@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox container property in css</title>
+    <style>
+    .cont{
+            display: flex;
+             /* in inline flex necessary space is required */
+             border: 1px solid black;
+             /* flex-direction: row-reverse;
+             flex-wrap: wrap; */
+             height: 150px;
+             justify-content: space-around;
+             /* align-items: flex-end; */
+             gap: 100px;
+             flex-flow:flex direction, flex wrap;
+
+
+        }
+.box{
+    /* height: 100px;
+    width: 100px; */
+}
+.box1{
+    background-color: brown;
+}
+.box2{
+    background-color:yellow ;
+}
+.box3{
+    background-color: greenyellow;
+}
+    </style>
+</head>
+<body>
+   <!-- Flexbox  -->
+   <div class="cont">
+   <div class="box box1">box 1</div>
+   <div class="box box2">box 2</div>
+   <div class="box box3">box 3</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo element in css</title>
+    <Style>
+    /* p::first-line{
+        background-color: aqua;
+    }
+    .hi::first-letter{ 
+        color:red;
+
+    }
+    p::after{
+        content: "-ayushi";
+        color: blue;
+    } */
+     p::before{
+        content: "-ayushi";
+        color: blue;
+        /* content ko khali double cites me dekar design bhi de skte hai */
+    } 
+    p::selection{
+        background-color: black;
+        color: aliceblue;
+    }
+</Style>
+</head>
+<body>
+    <!-- pseodo element in css -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ab odit, doloribus excepturi quidem aperiam itaque repudiandae soluta quae aut culpa voluptates quasi libero neque non ad perspiciatis quisquam totam.</p>
+    <p class="hi">Lorem, ipsum dolor.</p>
+</body>
+</html>

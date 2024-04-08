@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query in action</title>
+</head>
+<style>
+    body{
+        background-color: brown;
+    }
+    div{
+        font-size: x-large;
+        text-align: center;
+    }
+    div::after{ 
+        content:'welcome to the demo';
+        color: aliceblue;
+    }
+    @media (max-width:400px){
+        body{
+        background-color:yellow;
+    }
+    div::after{
+        content: "Very small";
+    }
+}
+@media (400px<=width<=768px){
+        body{
+        background-color:green ;
+    }
+    div::after{
+        content: "Mid-size";
+    }
+}
+    @media (min-width:768px){
+        body{
+        background-color:blueviolet ;
+    }
+    div::after{
+        content: "wohhh its working";
+    }
+}
+    @media (min-width:900px){
+        body{
+        background-color:blue ;
+    }
+    div::after{
+        content: "wohhh its working";
+    }
+}
+    
+</style>
+<body>
+   <div></div> 
+</body>
+</html>

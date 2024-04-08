@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow and z index</title>
+    <style>
+        p{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            overflow: scroll;
+        } 
+        .one{
+            height: 50px;
+            width: 50px;
+            position:absolute;
+            top:0;
+            z-index: 1;
+            background-color: aquamarine;
+        }
+        .two{
+            height: 50px;
+            width: 50px;
+            position:absolute;
+            top:0;
+            z-index: -1;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- overflow -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti repellat dolor sunt placeat veniam consequuntur voluptatem facere maxime, fugiat aliquid nesciunt ab fuga optio, perferendis illum veritatis a. Ducimus corporis eligendi explicabo omnis aliquam consequatur ullam fugiat iste, cum accusantium exercitationem perspiciatis at iure voluptatem? Illo voluptatum sapiente deserunt odit.</p>
+    <div class="one"></div>
+    <div class="two"></div>
+</body>
+</html>

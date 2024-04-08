@@ -1,0 +1,53 @@
+/* Universal selectors */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Element selector */
+h1{
+    color: #333;
+}
+p{
+    color: blue;
+}
+/* class selector */
+.para{
+    color:blue;
+}
+.hello{
+    font-size: 12px;
+}
+/* ID selectors */
+#hell{
+color: whitesmoke;
+background-color: black;
+}
+/* selector list */
+.class1, .class2, .class3{
+    color:green;
+}
+/* Desendent selector */
+main p{
+    color: red;
+}
+/* child selector */
+h1>p{
+    color: aqua;
+}
+/* Adjacent sibling selector */
+section+p{
+    color: palevioletred;
+ }
+ /* General sibling selector */
+section~p{
+    color:yellow;
+}
+/* Attribute selector */
+[ target="_blank"]{
+    color: plum;
+    text-decoration-color: black;
+}
+/* Attribute value selector~= */
+[alt~="ayushi"]{
+    color: blue;
+}
