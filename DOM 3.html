@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM part 3</title>
+</head>
+<body>
+    <h1>Hiiiiiiiii</h1>
+    <p id="js"></p>
+    <!-- <button onclick="hey()" id="jss">Submit</button> -->
+    <button ondblclick="hey()" id="jss">Submit</button>
+   <script>
+//document.addEventListener("click", hello);
+//document.addEventListener("dblclick", hello);
+document.addEventListener("mouseenter", hello);
+function hello(){
+    document.getElementById("js").innerText="Namaste";
+}
+function hey(){
+    document.getElementById("jss").innerText="Yayyy you enter";
+    document.getElementById("jss").style.color="red";
+    document.getElementById("jss").style.background="black"
+    document.getElementById("jss").style.border="2px solid yellow"
+     document.getElementById("jss").style.paddind="16px"
+}
+   </script> 
+</body>
+</html>
