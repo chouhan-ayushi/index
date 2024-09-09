@@ -28,7 +28,7 @@ const herosWithRaj=heros.filter((h)=>{
 })
 console.log(herosWithRaj);
 
-//shopping cart
+//shopping cart//reduce
 const cartBill=[22,45,34,33,80]
 const sumOfCartBill=cartBill.reduce((prev,curr)=>prev+curr,0)
 console.log(sumOfCartBill);
