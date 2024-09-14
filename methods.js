@@ -27,6 +27,10 @@ const herosWithRaj=heros.filter((h)=>{
     return h.endsWith('raj')
 })
 console.log(herosWithRaj);
+//---
+const words=['hii','hello','raaam']
+const result =words.filter(word=>word.length>3);
+console.log(result);
 
 //shopping cart//reduce
 const cartBill=[22,45,34,33,80]
