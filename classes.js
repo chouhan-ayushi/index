@@ -12,6 +12,6 @@ display(){
 
 
 }
-const p=new Product();
+const p=new Product();// new- creates an empty plain object
 console.log(p);
 p.display();
