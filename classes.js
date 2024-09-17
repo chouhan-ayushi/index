@@ -13,5 +13,6 @@ display(){
 
 }
 const p=new Product();// new- creates an empty plain object
+// in the above piece of code we are calling the constructor method
 console.log(p);
 p.display();
