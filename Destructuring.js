@@ -1,8 +1,8 @@
-// const oneArray =[1,2,3,4]
-// const twoArray = [5,0,8]
-//const threeArray =oneArray.concat(twoArray)
-//const threeArray = [oneArray, twoArray]
-//console.log(threeArray);
+ const oneArray =[1,2,3,4]
+const twoArray = [5,0,8]
+const threeArray =oneArray.concat(twoArray)
+const threeArray = [oneArray, twoArray]
+console.log(threeArray);
 
 //spread operator(array ke elements ko spread karna)
 const oneArray =[1,2,3,4]
