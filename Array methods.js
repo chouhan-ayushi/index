@@ -1,4 +1,4 @@
-//Array
+//Array Methods
 // let a=["hii","ayushi",2,4,5];
 // console.log(a);
 
