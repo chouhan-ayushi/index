@@ -14,7 +14,7 @@ function sayHello(){
 }
 
 let guessValue =sayHello()
-//console.log(guessValue);
+console.log(guessValue);
 //guessValue()
 
 const higherOrder = n =>{
