@@ -1,6 +1,6 @@
 
 // synchronous callback-line by line code execution// function h(x,fn){
-//     //h-hof
+    //h-hof
 //     //fn-callback
 //     console.log(x*x);
 //     fn();
@@ -27,12 +27,12 @@ function exec(n){
 }
 // asynchronous callback
 
-// console.log("start");
-// setTimeout(function f(){
-// console.log("time out");
+console.log("start");
+setTimeout(function f(){
+console.log("time out");
 
-// },3000);
-// console.log("end");
+},3000);
+console.log("end");
 
 console.log("start");
 setTimeout(function f(){
