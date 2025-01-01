@@ -1,10 +1,10 @@
- function createPromise(){
-    return new Promise(function exec(resolve,reject){
-        //your code goes here
-         setTimeout(function f(){
-             console.log("time out 2");
-             resolve("ayushi");
-             },300);
+ // function createPromise(){
+ //    return new Promise(function exec(resolve,reject){
+ //        //your code goes here
+ //         setTimeout(function f(){
+ //             console.log("time out 2");
+ //             resolve("ayushi");
+ //             },300);
         
 
 //     });
