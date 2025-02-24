@@ -1,0 +1,8 @@
+
+file1
+var a= 12;
+var b= 12345;
+module.exports ={first: a, second: b};
+
+file2
+var data=require("./script");
